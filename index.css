@@ -1,83 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background-color: rgb(0, 0, 0);
-}
-
 .row > div {
     height: 80px;
+    border: 1px solid black;
 }
 
-.caja1 { background-color: yellow; }
-.caja2 { background-color: purple; }
-.caja3 { background-color: yellow; }
-.caja4 { background-color: purple; }
-.caja5 { background-color: yellow; }
-.caja6 { background-color: purple; }
-.caja7 { background-color: yellow; }
-.caja8 { background-color: purple; }
-.caja9 { background-color: yellow; }
-.caja10 { background-color: purple; }
+.Amarillo { background-color: yellow; }
+.Morado { background-color: purple; }
 
-
-.caja1 {
-    min-height: 50px;
-}
-
-.caja2, .caja3 {
-    min-height: 50px;
-}
-
-.caja4 {
-    min-height: 150px;
-}
-
-.caja5, .caja6, .caja7 {
-    min-height: 50px;
-}
-
-.caja8, .caja9 {
-    min-height: 50px;
-}
-
-.caja10, .caja11, .caja12, .caja13 {
-    min-height: 50px;
-}
-
-@media (min-width: 768px) {
-
-    .caja2, .caja3 {
-        min-height: 50px;
-    }
-
-    .caja4, .caja5, .caja6, .caja7 {
-        min-height: 50;
-    }
-
-    .caja8, .caja9,
-    .caja10 {
-        min-height: 50px;
-    }
-}
-
-@media (min-width: 50px) {
-
-    .caja2 {
-        min-height: 50px;
-    }
-
-    .caja3, .caja4, .caja5 {
-        min-height: 50px;
-    }
-
-    .caja6, .caja7, .caja8, .caja9 {
-        min-height: 50px;
-    }
-
-    .caja10{
-        min-height: 50px;
-    }
-}
